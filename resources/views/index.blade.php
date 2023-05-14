@@ -18,12 +18,12 @@
     </head>
     <body class="antialiased">
     @if(session()->has('success'))
-        <div class="alert alert-success alert-dismissible fade show col-8 mx-auto mt-4" role="alert">
+        <div class="alert alert-success alert-dismissible fade show col-12 col-md-8 mx-auto mt-4" role="alert">
             <strong>{{session()->get('success')}}</strong>
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
     @endif
-        <div class="card col-8 mx-auto mt-5">
+        <div class="card col-12 col-md-8 mx-auto mt-5">
             <div class="card-header">
                 Laravel Filepond Multiple Uploader
             </div>
