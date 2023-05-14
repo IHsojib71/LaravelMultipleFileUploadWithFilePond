@@ -13,6 +13,8 @@ return new class extends Migration
     {
         Schema::create('temp_images', function (Blueprint $table) {
             $table->id();
+            $table->string('folder');
+            $table->string('file');
             $table->timestamps();
         });
     }
